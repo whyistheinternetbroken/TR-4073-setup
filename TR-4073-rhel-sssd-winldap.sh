@@ -1,5 +1,5 @@
 # The following shell script has been tested with RHEL6.x/CentOS6.x/Fedora13 clients. Newer clients may need adjustments to this script.
-# This script is intended to setup and configure clients for SSSD LDAP, Kerberized NFS and NFSv4.x.
+# This script is intended to setup and configure clients for SSSD LDAP, Kerberized NFS and NFSv4.x with Windows-based LDAP.
 # 
 # Instructions for use:
 #	Copy, paste, and modify the following into a file on an NFS client to be used with Kerberos. 
