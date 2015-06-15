@@ -1,10 +1,10 @@
 # The following shell script can be run from any client that supports shell scripts using SSH key–based login. 
 # The script does not include CIFS setup.
-# This script works for clustered Data ONTAP 8.1 and 8.2. 
+# This script works for clustered Data ONTAP 8.1 and 8.2. There currently is not version for clustered Data ONTAP 8.3.
 #	The script requires some interaction (such as user name/password for the user to create the machine account). 
 #	Replace the entries in {brackets} with the necessary information and save as Kerberos_setup.sh. 
 #	The script can be modified to include commands to modify rather than create DNS/NFS and so on by commenting/uncommenting the line.
-#	This script is not supported by NetApp and does not cover every use case.
+#	This script is not supported by NetApp and does not cover every use case. Updates to these scripts are not on any scheduled cadence.
 
 #!/bin/bash
 # Linux/UNIX box with ssh key based login enabled
